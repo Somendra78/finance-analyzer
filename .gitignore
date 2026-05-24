@@ -1,0 +1,21 @@
+# Sensitive data — NEVER commit
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/sample_transactions.csv
+
+# Python
+venv/
+_pycache_/
+*.pyc
+.ipynb_checkpoints/
+
+# Outputs
+outputs/*.png
+outputs/*.pdf
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
